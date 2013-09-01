@@ -1,13 +1,15 @@
 -- if you add new heads, you should change headnumber value accordingly
 
-headnumber = 13
+headnumber = 29
 
 -- register head nodes
 
 for i = 1, headnumber do
 
 	local x = i + 1
+	local y = i - 1
 	if x > headnumber then x = 1 end
+	if y < 1 then y = headnumber end
 
 	minetest.register_node("heads:head_"..i, {
 	    description = "Head Number "..i,
@@ -39,6 +41,16 @@ for i = 1, headnumber do
 	    on_rightclick = function(pos, node, clicker)
 	        node.name = "heads:head_"..x
 	        minetest.env:set_node(pos, node)
+	        if math.random(1, 3) == 1 then
+				minetest.sound_play({name="heads_ow", pos=pos,})
+			end
+	    end,
+	    on_punch = function (pos, node, puncher)
+	        node.name = "heads:head_"..y
+	        minetest.set_node(pos, node)
+	        if math.random(1, 3) == 1 then
+				minetest.sound_play({name="heads_ow", pos=pos,})
+			end
 	    end,
 	})
 	
