@@ -3,7 +3,7 @@ Bring Me The Head Mod
 by thefamilygrog66
 
 Description:
-Craft and place an assortment of character heads, using textures from Zeg9's Skins Mod. Once placed, their textures can be changed by right-clicking on them.
+Craft and place an assortment of character heads, using textures from Zeg9's Skins Mod. Once placed, their textures can be changed by right-clicking or left-clicking on them.
 
 Recipe:
 
@@ -20,19 +20,39 @@ Mod dependencies: bones
 License:
 Sourcecode: WTFPL
 Graphics: 	Jordach (CC BY-SA 3.0):
-				character_1.png
+				head_1
 			Zeg9 (CC BY-SA 3.0):
-				character_2.png
+				head_2
 			jmf (WTFPL):
-				character_3.png
-				character_4.png
-				character_5.png
-				character_6.png
-				character_7.png
-				character_8.png
-				character_9.png
-				character_10.png
-				character_11.png
+				head_3
+				head_4
+				head_5
+				head_6
+				head_7
+				head_8
+				head_9
+				head_10
+				head_11
 			Chinchow (WTFPL):
-				character_12.png
-				character_13.png
+				head_12
+				head_13
+				head_14
+			HybridDog (CC BY-SA 3.0):
+				head_15
+				head_16
+				head_17
+				head_18
+			Jordach (CC BY-NC-SA):
+				head_19
+				head_20
+				head_21
+				head_22
+				head_23
+				head_24
+				head_25
+				head_26
+			Stuart Jones (WTFPL):
+				head_27
+			prof_turbo (WTFPL):
+				head_28
+				head_29
