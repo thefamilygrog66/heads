@@ -56,3 +56,5 @@ Graphics: 	Jordach (CC BY-SA 3.0):
 			prof_turbo (WTFPL):
 				head_28
 				head_29
+			jojoa1997 (CC BY-SA 3.0):
+				head_30.png
